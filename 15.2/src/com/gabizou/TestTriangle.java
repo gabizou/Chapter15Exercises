@@ -16,7 +16,7 @@ public class TestTriangle {
 		double c = input.nextDouble();
 		input.close();
 		System.out.println("Ok. Now processing the information");
-		Triangle geoObject1 = new Triangle( a, b, c, "BLUE", true);
+		GeometricObject geoObject1 = new Triangle( a, b, c, "BLUE", true);
 		
 		System.out.println("Is the Triangle is filled? "+ geoObject1.isFilled());
 		System.out.println("The color of the Triangle is "+ geoObject1.getColor());
