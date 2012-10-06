@@ -28,29 +28,3 @@ public class Exercise13_02 extends JFrame {
 		frame.setVisible(true);
 	}
 }
-
-class OvalButton extends JButton {
-	public OvalButton() {
-	}
-
-	public OvalButton(String text) {
-		super(text);
-	}
-
-	@Override
-	protected void paintComponent(Graphics g) {
-		// Draw an oval
-		super.paintComponent(g);
-		g.drawOval(5, 5, getWidth() - 10, getHeight() - 10);
-	}
-
-	/** Override get method for preferredSize */
-	public Dimension getPreferredSize() {
-		return new Dimension(100, 50);
-	}
-
-	/** Override get method for minimumSize */
-	public Dimension getMinimumSize() {
-		return new Dimension(100, 50);
-	}
-}

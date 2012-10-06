@@ -16,8 +16,8 @@ public class Exercise_10_2 {
 		private int age;
 		private double weight; // in pounds
 		private double height; // in inches
-		public final double kpp = 0.45359237; 
-		public final double mpi = 0.0254;  
+		public final double kpp = 0.45359237; // kilograms per pound
+		public final double mpi = 0.0254;  // meters per inch
 
 		public BMI(String name, int age, double weight, double feet, double inches) {
 			this.name = name;
